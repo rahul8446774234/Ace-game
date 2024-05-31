@@ -1,0 +1,53 @@
+body{
+    margin: 0;padding: 0;
+    background-color: aqua;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+section
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: rgb(219, 203, 59);
+
+}
+.game
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 10px 10px 10px white;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.game span{
+    font-size:2rem ;
+    margin-left: 0.55rem;
+}
+div > button
+{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+div > button:active
+{
+    background-color: blueviolet;
+}
+h6{
+    text-align: center;
+    font-size: 2rem;
+}
